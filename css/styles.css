@@ -1,0 +1,243 @@
+/* Specific text-align  */
+
+#home {
+    text-align: center;
+}
+
+#daily {
+    text-align: center;
+}
+
+#cities {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+
+/*Background Image Switch */
+
+body.Monday {
+    background-image: url("../images/Monday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+body.Tuesday {
+    background-image: url("../images/Tuesday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+body.Wednesday {
+    background-image: url("../images/Wednesday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+body.Thursday {
+    background-image: url("../images/Thursday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+body.Friday {
+    background-image: url("../images/Friday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+body.Saturday {
+    background-image: url("../images/Saturday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+body.Sunday {
+    background-image: url("../images/Sunday.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+}
+
+
+/*Generic Styling */
+
+main.wrapper {
+    background-color: #fff;
+    overflow: auto;
+    width: 60%;
+    margin: auto;
+    border: double #8091f4;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/* HTML Structure Styling */
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+section {
+    width: 60%;
+    float: left;
+}
+
+aside {
+    width: 38%;
+    float: right;
+}
+
+header {
+    text-align: center;
+}
+
+
+/* Image css */
+
+img.about {
+    float: left;
+    width: 100%;
+    display: inline-block;
+}
+
+img.day {
+    width: 90%;
+}
+
+
+/* Navbar styling */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a9901c;
+}
+
+ul.topnav li {
+    float: left;
+    width: 20%;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 21px;
+}
+
+ul.topnav li a:hover {
+    background-color: #555;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+
+
+/* form styling */
+
+form {
+    max-width: 580px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+fieldset {
+    color: #666;
+    padding: 10px 15px 10px 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+
+/* Logout placing */
+
+.logout {
+    position: absolute;
+    display: inline-block;
+    right: 375px;
+    background-color: #cae6ff;
+    border: outset 2px;
+}
+
+.logout2 {
+    position: absolute;
+    display: inline-block;
+    left: 375px;
+    background-color: #cae6ff;
+    border: outset 2px;
+}
+
+
+/* Extra styling */
+
+.loginform {
+    text-align: center;
+    max-width: 200px;
+}
+
+.switchlist {
+    list-style-type: none;
+}
+
+.cityfont {
+    font-size: 20px;
+}
+
+.picture {
+    margin-top: 10px;
+}
+
+span {
+    display: block;
+    color: red;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.viewaside {
+    margin-top: 10px;
+    text-align: center;
+}
