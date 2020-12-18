@@ -15,7 +15,7 @@ include('config.php');
 
     <?php echo $spreadSheet ?>
 
-    <title>My Portal</title>
+    <title>Final Project</title>
 </head>
 
 <?php echo $body_class ?>
